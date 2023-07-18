@@ -1,0 +1,30 @@
+set guicursor=
+set autoindent
+set smartindent
+set enc=utf-8
+set fileencoding=utf-8
+set linebreak
+set textwidth=0
+set noexpandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set smarttab
+set number relativenumber
+set cmdheight=3
+set smartcase
+set ignorecase
+setlocal foldmethod=syntax
+set nofoldenable
+
+let maplocalleader="\\"
+
+nnoremap <Esc> <Esc>:noh<CR>
+noremap <leader>t :Ack! "TODO\|FIXME\|CHANGED\|BUG\|HACK" <CR>
+noremap <C-n> <Esc> :cn <CR> 
+noremap <C-p> <Esc> :cp <CR> 
+nnoremap <space> za
+nnoremap <C-space> zA
+
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
