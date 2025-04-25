@@ -1,0 +1,3 @@
+set editing-mode vi
+set keyseq-timeout 20
+set enable-keypad on
